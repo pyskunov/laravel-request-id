@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pyskunov\\LaravelApiResponse\\LaravelRequestIdServiceProvider"
+                "Pyskunov\\LaravelRequestId\\LaravelRequestIdServiceProvider"
             ]
         }
     }
