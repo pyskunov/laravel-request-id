@@ -1,0 +1,28 @@
+{
+    "name": "vpyskunov/laravel-request-id",
+    "description": "Adds method uuid to the request",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadym Pyskunov",
+            "email": "v.pyskunov3004@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyskunov\\LaravelRequestId\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pyskunov\\LaravelApiResponse\\LaravelApiResponseServiceProvider"
+            ]
+        }
+    }
+}
