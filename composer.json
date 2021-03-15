@@ -1,6 +1,7 @@
 {
     "name": "vpyskunov/laravel-request-id",
     "description": "Adds method uuid to the request",
+    "version": "1.0.0",
     "type": "package",
     "license": "MIT",
     "authors": [
